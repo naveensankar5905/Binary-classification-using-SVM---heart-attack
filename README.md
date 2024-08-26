@@ -14,5 +14,61 @@ The model is trained on 80% of the dataset and tested on the remaining 20%.
 
 Results
 Accuracy
+
+
 Train Accuracy: 100.0000 %
 Test Accuracy: 97.0732 %
+
+Classification Report
+
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97       106
+           1       1.00      0.94      0.97        99
+   accuracy                            0.97       205
+  macro avg        0.97      0.97      0.97       205
+weighted avg       0.97      0.97      0.97       205
+
+## Confusion Matrix
+
+  [[106   0]
+ [  6  93]]
+
+ Visualization
+You can visualize the confusion matrix and class distribution either interactively using Plotly or statically using Matplotlib.
+
+Interactive Visualizations:
+
+Confusion Matrix
+Class Distribution
+Static Visualizations:
+
+Confusion Matrix
+Class Distribution
+To toggle between interactive and static visualizations, set the interactive variable in the code.
+
+Requirements
+Python 3.x
+Libraries:
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+
+Install the required libraries using:
+
+
+Usage
+
+Clone the repository.
+1.Ensure you have the necessary libraries installed.
+2.Place the heart.csv dataset in the working directory.
+3.Run the script to train the model and visualize the results.
+
+
+This README should provide a clear overview of the project and instructions for users who want to replicate the work or build upon it.
+
+
+
