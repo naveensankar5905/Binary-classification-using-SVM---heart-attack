@@ -80,7 +80,11 @@ Copy code
 
 ## Clone the repository.
 1.Ensure you have the necessary libraries installed.
+
+
 2.Place the heart.csv dataset in the working directory.
+
+
 3.Run the script to train the model and visualize the results.
 
 
