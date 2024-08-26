@@ -59,6 +59,12 @@ scikit-learn
 
 Install the required libraries using:
 
+bash
+Copy code
+
+pip install numpy pandas matplotlib seaborn plotly scikit-learn
+
+
 
 Usage
 
