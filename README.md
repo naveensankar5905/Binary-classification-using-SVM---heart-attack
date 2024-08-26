@@ -57,17 +57,33 @@ Confusion Matrix
 Class Distribution
 To toggle between interactive and static visualizations, set the interactive variable in the code.
 
-#Requirements
+# Requirements
+
+
 Python 3.x
+
+
 Libraries:
+
+
 numpy
+
+
 pandas
+
+
 matplotlib
+
+
 seaborn
+
+
 plotly
+
+
 scikit-learn
 
-##Install the required libraries using:
+## Install the required libraries using:
 
 bash
 Copy code
