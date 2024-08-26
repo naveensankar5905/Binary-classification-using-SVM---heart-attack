@@ -17,6 +17,8 @@ Accuracy
 
 
 Train Accuracy: 100.0000 %
+
+
 Test Accuracy: 97.0732 %
 
 # Classification Report
@@ -32,9 +34,11 @@ weighted avg       0.97      0.97      0.97       205
 ## Confusion Matrix
 
   [[106   0]
- [  6  93]]
 
- Visualization
+  
+  [  6  93]]
+
+## Visualization
 You can visualize the confusion matrix and class distribution either interactively using Plotly or statically using Matplotlib.
 
 Interactive Visualizations:
