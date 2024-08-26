@@ -4,7 +4,7 @@ This project demonstrates a classification task on the Heart Disease dataset usi
 Dataset
 The dataset used in this project is heart.csv. The target variable is output, which indicates the presence of heart disease (1 for presence, 0 for absence). The dataset is split into features (X) and the target label (y).
 
-#Model Training
+# Model Training
 Model Used: Support Vector Machine (SVM)
 Kernel: Radial Basis Function (RBF)
 C: 20.62
@@ -12,14 +12,14 @@ Gamma: 0.01
 Degree: 3 (default for RBF kernel)
 The model is trained on 80% of the dataset and tested on the remaining 20%.
 
-#Results
+# Results
 Accuracy
 
 
 Train Accuracy: 100.0000 %
 Test Accuracy: 97.0732 %
 
-#Classification Report
+# Classification Report
 
               precision    recall  f1-score   support
 
@@ -57,24 +57,24 @@ seaborn
 plotly
 scikit-learn
 
-Install the required libraries using:
+##Install the required libraries using:
 
 bash
 Copy code
 
- #pip install numpy pandas matplotlib seaborn plotly scikit-learn
+ ## pip install numpy pandas matplotlib seaborn plotly scikit-learn
 
 
 
-#Usage
+## Usage
 
-Clone the repository.
+## Clone the repository.
 1.Ensure you have the necessary libraries installed.
 2.Place the heart.csv dataset in the working directory.
 3.Run the script to train the model and visualize the results.
 
 
-#This README should provide a clear overview of the project and instructions for users who want to replicate the work or build upon it.
+## This README should provide a clear overview of the project and instructions for users who want to replicate the work or build upon it.
 
 
 
