@@ -7,7 +7,7 @@ The dataset used in this project is heart.csv. The target variable is output, wh
 # Model Training
 Model Used: Support Vector Machine (SVM)
 Kernel: Radial Basis Function (RBF)
-C: 20.62
+C: 20.00
 Gamma: 0.01
 Degree: 3 (default for RBF kernel)
 The model is trained on 80% of the dataset and tested on the remaining 20%.
