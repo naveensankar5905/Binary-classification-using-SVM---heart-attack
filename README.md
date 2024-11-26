@@ -1,110 +1,46 @@
-# Heart Disease Classification using Support Vector Machine (SVM)
-This project demonstrates a classification task on the Heart Disease dataset using a Support Vector Machine (SVM) model with a radial basis function (RBF) kernel. The aim is to predict whether a patient has heart disease based on various medical attributes.
+# Binary Classification Using SVM - Heart Attack Prediction
 
-Dataset
-The dataset used in this project is heart.csv. The target variable is output, which indicates the presence of heart disease (1 for presence, 0 for absence). The dataset is split into features (X) and the target label (y).
+This repository contains a project that uses Support Vector Machines (SVM) for binary classification to predict the likelihood of heart attacks based on patient data. The goal is to provide an accurate and efficient predictive model for early detection.
 
-# Model Training
-Model Used: Support Vector Machine (SVM)
-Kernel: Radial Basis Function (RBF)
-C: 20.00
-Gamma: 0.01
-Degree: 3 (default for RBF kernel)
-The model is trained on 80% of the dataset and tested on the remaining 20%.
+## Files and Directories
 
-# Results
-Accuracy
+- **README.md**: Documentation of the project.
+- **SVM_Heart_disease.ipynb**: Jupyter notebook with the implementation of the SVM model.
+- **heart.csv**: Dataset containing patient health data and heart attack occurrence labels.
+- **report.pdf**: Detailed analysis and findings of the project.
 
+## Features
 
-Train Accuracy: 100.0000 %
+- Data preprocessing and exploration of the heart dataset.
+- Implementation of an SVM model for binary classification.
+- Evaluation of model performance using metrics such as accuracy and confusion matrix.
+- Insights into features contributing to heart attack prediction.
 
+## How to Use
 
-Test Accuracy: 97.0732 %
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/naveensankar5905/Binary-classification-using-SVM---heart-attack.git
+   ```
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter notebook:
+   ```bash
+   jupyter notebook SVM_Heart_disease.ipynb
+   ```
+4. Load the `heart.csv` dataset and run all the cells to train and evaluate the model.
 
-# Classification Report
+## Dataset
 
-              precision    recall  f1-score   support
+The dataset contains features such as age, cholesterol levels, blood pressure, and other health metrics, labeled with `1` (indicating heart attack) or `0` (no heart attack).
 
-           0       0.95      1.00      0.97       106
-           1       1.00      0.94      0.97        99
+## License
 
-           
-   accuracy                            0.97       205
+This project is licensed under the [MIT License](LICENSE).
 
-   
-  macro avg        0.97      0.97      0.97       205
+---
 
-  
-weighted avg       0.97      0.97      0.97       205
-
-## Confusion Matrix
-
-  [[106   0]
-
-  
-  [  6  93]]
-
-## Visualization
-You can visualize the confusion matrix and class distribution either interactively using Plotly or statically using Matplotlib.
-
-Interactive Visualizations:
-
-Confusion Matrix
-Class Distribution
-Static Visualizations:
-
-Confusion Matrix
-Class Distribution
-To toggle between interactive and static visualizations, set the interactive variable in the code.
-
-# Requirements
-
-
-Python 3.x
-
-
-Libraries:
-
-
-numpy
-
-
-pandas
-
-
-matplotlib
-
-
-seaborn
-
-
-plotly
-
-
-scikit-learn
-
-## Install the required libraries using:
-
-bash
-Copy code
-
- ## pip install numpy pandas matplotlib seaborn plotly scikit-learn
-
-
-
-## Usage
-
-## Clone the repository.
-1.Ensure you have the necessary libraries installed.
-
-
-2.Place the heart.csv dataset in the working directory.
-
-
-3.Run the script to train the model and visualize the results.
-
-
-## This README should provide a clear overview of the project and instructions for users who want to replicate the work or build upon it.
-
-
-
+### © 2024 Naveen Sankar RS  
+All rights reserved.
